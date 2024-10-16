@@ -1,0 +1,30 @@
+/* Import normalize.css */
+@import url('/assets/css/normalize.css');
+
+/* Import custom fonts */
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+/* Custom styles */
+.wrapper {
+    min-height: 100%;
+    overflow: clip;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper > main {
+    flex: 1 1 auto;
+}
+
+[class*='__container'] {
+    padding: 15px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+body {
+    background-color: #121212;
+    font-family: 'Afcad Flux', sans-serif;
+}
+/* -------------- */
